@@ -1,0 +1,47 @@
+.container {
+  display:grid;
+  grid-template-areas:
+  "price1 price2 price3";
+  grid
+  gap:2vw;
+  justify-items:center;
+}
+.price1 {
+  background-color:antiquewhite;
+  width:32vw;
+  border-radius:10px;
+}
+.price2 {
+  background-color:antiquewhite;
+  width:32vw;
+  border-radius:10px;
+
+}
+.price3 {
+  background-color:antiquewhite;
+  width:32vw;
+  border-radius:10px;
+
+}
+.klassz {
+  text-align:center;
+  padding:1rem;
+}
+.ar {
+  text-align:center;
+  padding:1rem;
+  background-color:red;
+  color:white;
+}
+.description {
+  text-align:center;
+  padding:1rem;
+}
+button {
+  display:block;
+  margin:auto; 
+
+}
+ul {
+  padding:1rem;
+}
